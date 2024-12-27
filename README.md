@@ -25,8 +25,7 @@ Este repositorio contiene una colección organizada de soluciones a problemas de
 
 - **Demostrar habilidades técnicas** en resolución de problemas y análisis algorítmico.  
 - **Facilitar el aprendizaje continuo** y la revisión personal.  
-- **Servir como un recurso útil** para otros desarrolladores interesados en algoritmos y estructuras de datos.  
-- **Construir un portafolio profesional** atractivo para oportunidades laborales.
+- **Servir como un recurso útil** para otros desarrolladores interesados en algoritmos y estructuras de datos. 
 
 ---
 
