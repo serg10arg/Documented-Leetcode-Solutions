@@ -1,6 +1,8 @@
-### **Comprensión del problema**
+### **Problema**
 
 #### [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/?envType=study-plan-v2&envId=top-interview-150)
+
+---
 
 ### **Objetivo del Programa**
 
@@ -24,9 +26,7 @@ Lo vamos a desglosar para entender:
      - **La altura de la barra más baja** (no podemos llenar más alto que la barra más corta).
      - **La distancia horizontal entre las barras** (porque eso es el ancho del contenedor).
    - El área del agua almacenada se calcula como:
-     \[
-     \text{Área} = \text{altura mínima} \times \text{distancia entre las barras}
-     \]
+     - Área = altura mínima x distancia entre las barras
 
 2. **¿Qué buscamos?**
    - Mover las barras para encontrar **el área más grande posible**.
@@ -100,7 +100,7 @@ Voy a explicarlo desglosado:
 ### **Relación entre los pasos y el objetivo**
 
 - Cada paso del programa se centra en maximizar el área moviendo los punteros de manera inteligente.
-- En lugar de comparar todas las combinaciones posibles (lo cual sería lento), usamos una técnica eficiente: **los punteros se mueven hacia el centro solo si tiene sentido hacerlo**, reduciendo el tiempo de ejecución a \(O(n)\).
+- En lugar de comparar todas las combinaciones posibles (lo cual sería lento), usamos una técnica eficiente: **los punteros se mueven hacia el centro solo si tiene sentido hacerlo**, reduciendo el tiempo de ejecución a O(n).
 
 ---
 

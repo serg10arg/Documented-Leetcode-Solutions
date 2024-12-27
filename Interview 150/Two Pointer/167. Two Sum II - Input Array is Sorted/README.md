@@ -1,6 +1,8 @@
-### **Objetivo del programa**
+### **Problema**
 
-- https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/?envType=study-plan-v2&envId=top-interview-150
+#### [167. Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/?envType=study-plan-v2&envId=top-interview-150)
+
+### **Objetivo del programa**
 
 Este programa tiene una misión: encontrar dos números en un arreglo que sumen un número objetivo (`target`). Además, el arreglo ya está ordenado (es decir, los números van de menor a mayor). Una vez que encuentra esos dos números, devuelve sus posiciones, pero no como se indexan en programación (empezando desde 0), sino de forma humana, empezando desde 1.
 
@@ -81,7 +83,3 @@ Imagina el caso:
 - ¡Éxito! Devolvemos los índices `[1, 2]` (recordando que sumamos 1 a las posiciones).
 
 ---
-
-### **¿Por qué funciona esto?**
-
-Es como buscar dos amigos en una fila que juntos paguen exactamente el precio de un objeto. Si el primero y el último gastan demasiado, haces que el último dé un paso atrás. Si no alcanzan, el primero avanza. Como la fila está ordenada, ¡llegas a la solución sin dar pasos innecesarios!

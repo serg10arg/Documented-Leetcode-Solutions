@@ -1,10 +1,10 @@
-### **Comprensión del problema**
+### **Problema**
 
-- https://leetcode.com/problems/3sum/?envType=study-plan-v2&envId=top-interview-150
+#### [15. 3Sum](https://leetcode.com/problems/3sum/?envType=study-plan-v2&envId=top-interview-150)
 
 ---
 
-### Objetivo general
+### **Comprensión del problema**
 
 Dado un arreglo de números (`nums`), queremos encontrar todas las tripletas `[nums[i], nums[j], nums[k]]` donde la suma sea 0 y no haya duplicados. El resultado será una lista de estas tripletas.
 

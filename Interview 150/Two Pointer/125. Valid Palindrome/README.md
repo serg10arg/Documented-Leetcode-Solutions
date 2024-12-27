@@ -1,6 +1,10 @@
-### **Comprensión del problema**
+### **Problema**
 
-- https://leetcode.com/problems/valid-palindrome/description/?envType=study-plan-v2&envId=top-interview-150
+#### [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/?envType=study-plan-v2&envId=top-interview-150)
+
+---
+
+### **Comprensión del problema**
 
 1. **Desglose**:
 
@@ -12,7 +16,7 @@
 
 2. **Requisitos y condiciones**:
 
-   - El tamaño de la cadena puede ser muy grande (hasta \(2 \times 10^{45}\)).
+   - El tamaño de la cadena puede ser muy grande hasta 2 x 10^45.
    - Solo debemos considerar caracteres alfanuméricos.
    - Debemos trabajar con caracteres ASCII.
 
@@ -32,7 +36,7 @@
 
 2. **Estructuras de datos/algoritmos relevantes**:
 
-   - Usar un enfoque de dos punteros para eficiencia \(O(n)\).
+   - Usar un enfoque de dos punteros para eficiencia O(n).
    - Utilizar métodos como `Character.isLetterOrDigit()` y `Character.toLowerCase()` para procesar los caracteres.
 
 3. **Plan detallado**:
@@ -100,8 +104,8 @@ public class ValidPalindrome {
 
 2. **Eficiencia**:
 
-   - Complejidad temporal: \(O(n)\), donde \(n\) es la longitud de la cadena.
-   - Complejidad espacial: \(O(1)\), ya que no se usan estructuras adicionales significativas.
+   - Complejidad temporal: O(n), donde n es la longitud de la cadena.
+   - Complejidad espacial: O(1), ya que no se usan estructuras adicionales significativas.
 
 3. **Mejoras potenciales**:
    - Si se requieren optimizaciones adicionales, podríamos usar expresiones regulares para filtrar caracteres relevantes antes del procesamiento.

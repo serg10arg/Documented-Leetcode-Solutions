@@ -1,6 +1,8 @@
-### **Comprensión del problema**
+### **Problema**
 
-- https://leetcode.com/problems/is-subsequence/description/?envType=study-plan-v2&envId=top-interview-150
+#### [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/description/?envType=study-plan-v2&envId=top-interview-150)
+
+### **Comprensión del problema**
 
 El problema requiere determinar si una cadena `s` es una subsecuencia de otra cadena `t`. Para ello:
 
@@ -37,10 +39,10 @@ El problema requiere determinar si una cadena `s` es una subsecuencia de otra ca
 
    **Complejidad**:
 
-   - **Temporal**: \(O(n + m)\), donde \(n = \text{s.length}\) y \(m = \text{t.length}\).
-   - **Espacial**: \(O(1)\), porque no se utiliza memoria adicional significativa.
+   - **Temporal**: O(n + m), donde n = s.length y m = t.length.
+   - **Espacial**: O(1), porque no se utiliza memoria adicional significativa.
 
-#### **Para la variante de grandes cantidades de cadenas \(s_i\):**
+#### **Para la variante de grandes cantidades de cadenas sᵢ:**
 
 - **Preprocesar `t` para optimizar la búsqueda**:
 
@@ -49,8 +51,8 @@ El problema requiere determinar si una cadena `s` es una subsecuencia de otra ca
 
   **Complejidad**:
 
-  - **Preprocesamiento**: \(O(m)\), donde \(m = \text{t.length}\).
-  - **Consulta**: \(O(\text{s.length} \cdot \log m)\) por cada \(s_i\).
+  - **Preprocesamiento**: O(m), donde m = t.length.
+  - **Consulta**: O(s.length \ log m) por cada sᵢ.
 
 ---
 
@@ -136,10 +138,10 @@ public class IsSubsequenceOptimized {
 
    - Para la implementación optimizada:
      - Preprocesar `t` una vez es eficiente.
-     - Las consultas son rápidas incluso para cadenas largas \(t\) y múltiples \(s_i\).
+     - Las consultas son rápidas incluso para cadenas largas t y múltiples sᵢ.
 
 3. **Mejoras potenciales**:
-   - Paralelizar las consultas de \(s_i\) si son independientes.
+   - Paralelizar las consultas de sᵢ si son independientes.
    - Utilizar técnicas de compresión de datos para ahorrar memoria en casos extremos.
 
 ---
@@ -150,9 +152,3 @@ public class IsSubsequenceOptimized {
 
   - Divide los problemas grandes en pasos pequeños y claros.
   - Familiarízate con estructuras como mapas, listas y búsqueda binaria.
-
-- **Práctica continua**:
-  - Resolver problemas relacionados en plataformas como LeetCode o HackerRank.
-  - Explorar variaciones del problema, como subsecuencias más largas o subsecuencias comunes.
-
-¡Con esta guía, tienes una solución sólida para enfrentar el problema y seguir mejorando! 🚀
