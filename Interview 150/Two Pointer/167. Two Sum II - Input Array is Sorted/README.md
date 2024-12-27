@@ -1,8 +1,6 @@
-¡Claro que sí! Vamos a desglosar este programa usando un enfoque sencillo, empezando desde lo básico para que quede todo clarito. 😎
-
----
-
 ### **Objetivo del programa**
+
+- https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/?envType=study-plan-v2&envId=top-interview-150
 
 Este programa tiene una misión: encontrar dos números en un arreglo que sumen un número objetivo (`target`). Además, el arreglo ya está ordenado (es decir, los números van de menor a mayor). Una vez que encuentra esos dos números, devuelve sus posiciones, pero no como se indexan en programación (empezando desde 0), sino de forma humana, empezando desde 1.
 

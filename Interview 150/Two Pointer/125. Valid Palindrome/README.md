@@ -1,5 +1,7 @@
 ### **Comprensión del problema**
 
+- https://leetcode.com/problems/valid-palindrome/description/?envType=study-plan-v2&envId=top-interview-150
+
 1. **Desglose**:
 
    - Un palíndromo es una secuencia que se lee igual hacia adelante y hacia atrás.
