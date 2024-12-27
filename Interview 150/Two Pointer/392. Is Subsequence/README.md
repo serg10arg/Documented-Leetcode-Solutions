@@ -2,6 +2,8 @@
 
 #### [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/description/?envType=study-plan-v2&envId=top-interview-150)
 
+---
+
 ### **Comprensión del problema**
 
 El problema requiere determinar si una cadena `s` es una subsecuencia de otra cadena `t`. Para ello:
